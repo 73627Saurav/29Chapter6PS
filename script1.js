@@ -18,5 +18,16 @@ while (runAgain) {
   else {
     alert("You cannot drive")
   }
+  
   runAgain = confirm("Do you want to play again?")
+}
+
+let color = prompt("Enter the page background color")
+document.body.style.background = color
+
+let number = prompt("Enter your number")
+number = Number.parseInt(number)
+
+if (number > 4) {
+  location.href = "http://google.com"
 }
